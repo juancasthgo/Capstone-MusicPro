@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Un registro puede tener uno o muchos productos" directorySegmentName="seg_0" id="50C18255-D71A-5D7D-0222-76B12B3F1B0C">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 00:59:54 UTC</createdTime>
+<ownerDesignName>Music Pro</ownerDesignName>
+<engineerTo>
+<item key="087DD6B8-9B81-92B0-05E6-8434B3F00107" value="true"/>
+</engineerTo>
+<sourcePk>387B5C0F-88F5-DFF7-E06C-79351AF5BAD7</sourcePk>
+<targetPk>982E5F8B-5DE6-9EB2-A04E-CDF8D136A9FA</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C927E968-1583-6345-1D16-18FC12F42325</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BB2C0999-2130-5B60-E625-E11238949C9A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

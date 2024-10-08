@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37D0202C-9B00-2A84-73E0-F07562B0CEC0" name="CARRO">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 01:01:49 UTC</createdTime>
+<ownerDesignName>Music Pro</ownerDesignName>
+<engineerTo>
+<item key="087DD6B8-9B81-92B0-05E6-8434B3F00107" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_carro" id="7532F5CA-01C6-48C2-9B0F-73200CADE537">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 01:02:06 UTC</createdTime>
+<ownerDesignName>Music Pro</ownerDesignName>
+<engineerTo>
+<item key="087DD6B8-9B81-92B0-05E6-8434B3F00107" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="D465BBD4-230C-2D8C-86C4-3BE19E45C834">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:03:23 UTC</createdTime>
+<ownerDesignName>Music Pro</ownerDesignName>
+<engineerTo>
+<item key="087DD6B8-9B81-92B0-05E6-8434B3F00107" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="EFD0F6E1-5C60-C7FC-7AE5-9B6D911D0B5A">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:05:17 UTC</createdTime>
+<generatorID>FF18731C-098C-C835-4B70-3154725F2441</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<engineerTo>
+<item key="087DD6B8-9B81-92B0-05E6-8434B3F00107" value="true"/>
+</engineerTo>
+<referedAttribute>340CB1A1-49D2-1113-4D5B-80E237AA5520</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5DE0AEDF-1BCB-E02D-6BCA-77F63FCC052B" name="CARRO PK">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 01:02:18 UTC</createdTime>
+<ownerDesignName>Music Pro</ownerDesignName>
+<engineerTo>
+<item key="087DD6B8-9B81-92B0-05E6-8434B3F00107" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7532F5CA-01C6-48C2-9B0F-73200CADE537</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

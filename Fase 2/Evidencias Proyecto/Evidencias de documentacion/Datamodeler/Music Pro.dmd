@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Music Pro" id="27B0048A-5063-9DC8-4D15-DDDD970216F1" version="3.5">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 00:44:43 UTC</createdTime>
+<ownerDesignName>Music Pro</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>27B0048A-5063-9DC8-4D15-DDDD970216F1</designId>
+</OSDM_Design>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="61CC90F3-5FE7-D035-834B-2964922CAF78">
+<createdBy>casti</createdBy>
+<modifiedBy>casti</modifiedBy>
+<createdTime>2024-10-08 01:02:52 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="335E1310-F033-9E22-2A28-69CFBBC3ADCC" otype="Table" vid="B788DF68-7AB4-7337-3305-3A12D71AB1B2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="110" y="64" width="294" height="212"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="96AD8871-74EE-2866-CACC-4C0897A6637A" otype="Table" vid="C06510F3-2924-23B2-EA27-8BDA2CDC0CE2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="110" y="527" width="274" height="142"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="9FB91943-E0B5-8A8F-1875-77D1C0E5CDFA" otype="Table" vid="648712AD-4874-CEE8-80AF-5E9B206AE592">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="590" y="537" width="252" height="128"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="C20D1529-4818-6BA9-4273-110D9B42E4CD" otype="Table" vid="60473568-C5F2-EA89-E63E-F5363DF97BA3">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="599" y="72" width="274" height="206"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="D2E30EA7-47CD-2F8F-49C1-4A1AD1F90124" otype="Table" vid="44C6CF22-ADF3-EA16-F996-74F95BE29F3F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="969" y="533" width="705" height="122"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="E263F7AD-0149-5015-A5F2-BA8C8A7F9C19" otype="Table" vid="87484DC7-E981-49F9-2E5F-2729DFDA7ACA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1088" y="134" width="246" height="74"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="06EB3133-D7FE-F634-EDCE-FC1A19727022" otype="FKIndexAssociation" vid_source="648712AD-4874-CEE8-80AF-5E9B206AE592" vid_target="B788DF68-7AB4-7337-3305-3A12D71AB1B2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="647" y="537"/>
+<point x="354" y="276"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="3BC34B40-9C7B-6CE9-7EBC-D5CFC369BFA7" otype="FKIndexAssociation" vid_source="B788DF68-7AB4-7337-3305-3A12D71AB1B2" vid_target="648712AD-4874-CEE8-80AF-5E9B206AE592">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="369" y="276"/>
+<point x="662" y="537"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="5D4E50AE-846F-C4A9-6D0C-A4C641739BB8" otype="FKIndexAssociation" vid_source="B788DF68-7AB4-7337-3305-3A12D71AB1B2" vid_target="C06510F3-2924-23B2-EA27-8BDA2CDC0CE2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="247" y="276"/>
+<point x="247" y="527"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="784A034B-1CDB-C959-38F9-5D6582BC896F" otype="FKIndexAssociation" vid_source="60473568-C5F2-EA89-E63E-F5363DF97BA3" vid_target="44C6CF22-ADF3-EA16-F996-74F95BE29F3F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="873" y="273"/>
+<point x="1236" y="533"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="7EFD34E5-D3B5-D05F-8EAE-D264F94C949B" otype="FKIndexAssociation" vid_source="C06510F3-2924-23B2-EA27-8BDA2CDC0CE2" vid_target="B788DF68-7AB4-7337-3305-3A12D71AB1B2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="262" y="527"/>
+<point x="262" y="276"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="826D363F-094A-6277-ECCD-84A0639BDB07" otype="FKIndexAssociation" vid_source="B788DF68-7AB4-7337-3305-3A12D71AB1B2" vid_target="60473568-C5F2-EA89-E63E-F5363DF97BA3">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="404" y="174"/>
+<point x="599" y="174"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="AD73DD6D-A648-8A3C-A06D-AE81963C9485" otype="FKIndexAssociation" vid_source="648712AD-4874-CEE8-80AF-5E9B206AE592" vid_target="60473568-C5F2-EA89-E63E-F5363DF97BA3">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="720" y="537"/>
+<point x="720" y="278"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="DD112D50-2493-0D73-3D11-3B007082CE1D" otype="FKIndexAssociation" vid_source="87484DC7-E981-49F9-2E5F-2729DFDA7ACA" vid_target="44C6CF22-ADF3-EA16-F996-74F95BE29F3F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1211" y="208"/>
+<point x="1211" y="533"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

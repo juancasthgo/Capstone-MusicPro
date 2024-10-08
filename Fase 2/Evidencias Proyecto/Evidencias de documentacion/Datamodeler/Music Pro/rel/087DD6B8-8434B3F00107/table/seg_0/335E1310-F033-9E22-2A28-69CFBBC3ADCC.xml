@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="335E1310-F033-9E22-2A28-69CFBBC3ADCC" name="USUARIO">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>C927E968-1583-6345-1D16-18FC12F42325</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="77A0883E-E349-4160-423C-8CB195EE7BBF">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>340CB1A1-49D2-1113-4D5B-80E237AA5520</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="201995C3-337D-C939-6041-25D84146EFE0">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>0E3A61F2-42AC-2D8B-F857-9F7275F2CBAC</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="404F007D-B232-507A-7B3F-7B8C1470CBAB">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>A8F535CC-BE5B-BB67-F100-734AD0C48D09</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="4C3E885D-D4C3-31C0-013F-A8198E5F8BFC">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>6660C64D-E1C5-A97F-1FEA-9408B2DC9D9E</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contrasena" id="FFF9C56D-8A57-A22D-4747-4DC4FFF05D7C">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>A405A88A-B49D-18F8-0597-5EF9AC8D6489</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTACTO_id_contacto" id="1FF6E3BF-10B4-D229-B42F-C7364E0813D2">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>B7FEE4C0-D1EA-A7FD-284F-65AD647E204A</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EFD34E5-D3B5-D05F-8EAE-D264F94C949B" referredColumn="17DB8C6E-0AE7-C790-A284-D9D108522C9B"/>
+</associations>
+</Column>
+<Column name="CARRO_id_carro" id="94D55876-20AB-BC9D-1563-39BDA44090AA">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>75A82D55-A73C-EF3B-C338-2F13E923A856</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06EB3133-D7FE-F634-EDCE-FC1A19727022" referredColumn="DA392E9B-612F-A1B1-7C7B-941C1664E6A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45EF0B97-E67A-8F85-A989-E09C0D888B55" name="USUARIO_PK">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>387B5C0F-88F5-DFF7-E06C-79351AF5BAD7</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77A0883E-E349-4160-423C-8CB195EE7BBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3296AFD1-97E1-F979-7036-2B8B321437A7" name="USUARIO__IDX">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<ownerDesignName>Music Pro</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>84E748ED-FFDE-A622-435E-A5F21954B619</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="1FF6E3BF-10B4-D229-B42F-C7364E0813D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7FA9BAE-C630-30DF-864C-C7943D50E46D" name="USUARIO__IDXv1">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<ownerDesignName>Music Pro</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FF18731C-098C-C835-4B70-3154725F2441</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="94D55876-20AB-BC9D-1563-39BDA44090AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3598B3CD-9E99-C5D6-9099-17240621C189" name="USUARIO_CONTACTO_FK">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>84E748ED-FFDE-A622-435E-A5F21954B619</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FF6E3BF-10B4-D229-B42F-C7364E0813D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="544A950F-336D-A07A-F3F4-EB5DFBD776B8" name="USUARIO_CARRO_FK">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>FF18731C-098C-C835-4B70-3154725F2441</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94D55876-20AB-BC9D-1563-39BDA44090AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

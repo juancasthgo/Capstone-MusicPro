@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="06EB3133-D7FE-F634-EDCE-FC1A19727022" containerWithKeyObject="335E1310-F033-9E22-2A28-69CFBBC3ADCC" localFKIndex="544A950F-336D-A07A-F3F4-EB5DFBD776B8" name="USUARIO_CARRO_FK">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>FF18731C-098C-C835-4B70-3154725F2441</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<referredTableLongName>CARRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9FB91943-E0B5-8A8F-1875-77D1C0E5CDFA</referredTableID>
+<keyObject>1120D586-F403-4C22-163E-EA35AC14E539</keyObject>
+<referredKeyID>1120D586-F403-4C22-163E-EA35AC14E539</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_carro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

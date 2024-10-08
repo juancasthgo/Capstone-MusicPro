@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Un usuario tiene un carrito de compras" directorySegmentName="seg_0" id="FF18731C-098C-C835-4B70-3154725F2441">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:05:07 UTC</createdTime>
+<ownerDesignName>Music Pro</ownerDesignName>
+<engineerTo>
+<item key="087DD6B8-9B81-92B0-05E6-8434B3F00107" value="true"/>
+</engineerTo>
+<sourcePk>5DE0AEDF-1BCB-E02D-6BCA-77F63FCC052B</sourcePk>
+<targetPk>387B5C0F-88F5-DFF7-E06C-79351AF5BAD7</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>37D0202C-9B00-2A84-73E0-F07562B0CEC0</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C927E968-1583-6345-1D16-18FC12F42325</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

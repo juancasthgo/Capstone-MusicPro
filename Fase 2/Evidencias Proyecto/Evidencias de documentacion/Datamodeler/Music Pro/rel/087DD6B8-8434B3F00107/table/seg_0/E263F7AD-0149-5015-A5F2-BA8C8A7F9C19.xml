@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E263F7AD-0149-5015-A5F2-BA8C8A7F9C19" name="CATEGORIA">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>E75DF1D5-D963-97B0-DBD2-D4A3AE2661E6</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_categoria" id="52020CA8-7DD6-76B5-A53E-50173D349CB1">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>84DF83A8-A13B-A428-3052-87E05FE49920</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="C7621107-9960-9B5E-7289-F89A7A626107">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>F38E8F79-67EC-B28D-6827-469F65EE5071</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF5E039E-DC20-AF62-F91A-9E6434707093" name="CATEGORIA_PK">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>491C5044-6035-198B-608A-5FC7865FBC79</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52020CA8-7DD6-76B5-A53E-50173D349CB1"/>
+<colUsage columnID="C7621107-9960-9B5E-7289-F89A7A626107"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

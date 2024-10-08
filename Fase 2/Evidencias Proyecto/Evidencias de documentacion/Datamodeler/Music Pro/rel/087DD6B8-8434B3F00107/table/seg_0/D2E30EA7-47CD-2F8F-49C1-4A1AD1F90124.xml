@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2E30EA7-47CD-2F8F-49C1-4A1AD1F90124" name="Muchos_productos_pueden_tener_muchas_categorias">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<ownerDesignName>Music Pro</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCTO_id_producto" id="5C07C0CB-FEDB-0186-79D7-3179832804F3">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<ownerDesignName>Music Pro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="784A034B-1CDB-C959-38F9-5D6582BC896F" referredColumn="8677F14F-D82D-874B-C2C0-F396B3F087E1"/>
+</associations>
+</Column>
+<Column name="CATEGORIA_id_categoria" id="703D7940-CA9B-8543-F269-D1C1CC341265">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<ownerDesignName>Music Pro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD112D50-2493-0D73-3D11-3B007082CE1D" referredColumn="52020CA8-7DD6-76B5-A53E-50173D349CB1"/>
+</associations>
+</Column>
+<Column name="CATEGORIA_descripcion" id="CC36FDEE-A2B0-139D-441F-2C170592E7D6">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<ownerDesignName>Music Pro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD112D50-2493-0D73-3D11-3B007082CE1D" referredColumn="C7621107-9960-9B5E-7289-F89A7A626107"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="136FAC14-EE32-CC93-DC08-55BF3CED81B2" name="Muchos_productos_pueden_tener_muchas_categorias_PK">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<ownerDesignName>Music Pro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C07C0CB-FEDB-0186-79D7-3179832804F3"/>
+<colUsage columnID="703D7940-CA9B-8543-F269-D1C1CC341265"/>
+<colUsage columnID="CC36FDEE-A2B0-139D-441F-2C170592E7D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42FF5DB5-9C56-85B6-0150-FBE8FD204138" name="Muchos_productos_pueden_tener_muchas_categorias_PRODUCTO_FK">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>16265F48-D0F9-F8E6-900B-162D080F0C92</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C07C0CB-FEDB-0186-79D7-3179832804F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="150930D1-85F0-B730-E135-B57B4098BBF7" name="Muchos_productos_pueden_tener_muchas_categorias_CATEGORIA_FK">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>16265F48-D0F9-F8E6-900B-162D080F0C92</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="703D7940-CA9B-8543-F269-D1C1CC341265"/>
+<colUsage columnID="CC36FDEE-A2B0-139D-441F-2C170592E7D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

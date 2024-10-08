@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96AD8871-74EE-2866-CACC-4C0897A6637A" name="CONTACTO">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>ECB434D9-86FE-674F-A2F6-E69D52C0DFA7</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_contacto" id="17DB8C6E-0AE7-C790-A284-D9D108522C9B">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>94D78C7C-A10E-8713-EF2C-6483AC31E138</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="1549886D-9AA3-4E7E-B97D-DCBB35F9736F">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>56F750C4-0314-8466-A2D1-43FB03F49E3F</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="55EB2CBA-3106-A2E9-58B5-7361584907A5">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>4B4438ED-438C-78F3-2805-1AE6E09C1538</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_id_usuario" id="E1922C2A-54AF-82C0-E3AD-32F3512B3042">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>5D36E1DF-AA4F-BB6D-8E89-42CAC0CF12EF</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D4E50AE-846F-C4A9-6D0C-A4C641739BB8" referredColumn="77A0883E-E349-4160-423C-8CB195EE7BBF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0474B318-0019-8EDF-13AF-28C050BCD8FA" name="CONTACTO_PK">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>D37DCD1A-53DC-8D7D-CC2D-FB45290AA3DD</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17DB8C6E-0AE7-C790-A284-D9D108522C9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF909C54-7498-4A86-FAE8-09B6501C9C12" name="CONTACTO__IDX">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<ownerDesignName>Music Pro</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>84E748ED-FFDE-A622-435E-A5F21954B619</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E1922C2A-54AF-82C0-E3AD-32F3512B3042"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8194E9C-3C04-E800-05FB-728B03C8DA41" name="CONTACTO_USUARIO_FK">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>84E748ED-FFDE-A622-435E-A5F21954B619</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1922C2A-54AF-82C0-E3AD-32F3512B3042"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

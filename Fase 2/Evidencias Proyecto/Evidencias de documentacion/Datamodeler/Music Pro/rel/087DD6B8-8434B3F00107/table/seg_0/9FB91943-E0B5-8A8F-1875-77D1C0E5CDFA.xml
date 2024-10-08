@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FB91943-E0B5-8A8F-1875-77D1C0E5CDFA" name="CARRO">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>37D0202C-9B00-2A84-73E0-F07562B0CEC0</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_carro" id="DA392E9B-612F-A1B1-7C7B-941C1664E6A9">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>7532F5CA-01C6-48C2-9B0F-73200CADE537</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="5CEE6D45-F413-FD67-B0AB-F6D01B86E383">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>D465BBD4-230C-2D8C-86C4-3BE19E45C834</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_id_usuario" id="6BBB7368-D6D6-33CA-08F6-07A96CDC6A26">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>EFD0F6E1-5C60-C7FC-7AE5-9B6D911D0B5A</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BC34B40-9C7B-6CE9-7EBC-D5CFC369BFA7" referredColumn="77A0883E-E349-4160-423C-8CB195EE7BBF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1120D586-F403-4C22-163E-EA35AC14E539" name="CARRO_PK">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>5DE0AEDF-1BCB-E02D-6BCA-77F63FCC052B</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA392E9B-612F-A1B1-7C7B-941C1664E6A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73A0B221-1DA1-B72D-71D2-AD3716D3A43C" name="CARRO__IDX">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<ownerDesignName>Music Pro</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FF18731C-098C-C835-4B70-3154725F2441</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6BBB7368-D6D6-33CA-08F6-07A96CDC6A26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCDCE0D4-7FD4-BAA1-C379-3B54405E2D55" name="CARRO_USUARIO_FK">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 04:10:03 UTC</createdTime>
+<generatorID>FF18731C-098C-C835-4B70-3154725F2441</generatorID>
+<ownerDesignName>Music Pro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BBB7368-D6D6-33CA-08F6-07A96CDC6A26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

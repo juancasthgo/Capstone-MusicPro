@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Un carro puede tener uno o muchos productos" directorySegmentName="seg_0" id="534DDE57-4D18-B07D-7CA1-ABF89FD2932C">
+<createdBy>casti</createdBy>
+<createdTime>2024-10-08 01:03:04 UTC</createdTime>
+<ownerDesignName>Music Pro</ownerDesignName>
+<engineerTo>
+<item key="087DD6B8-9B81-92B0-05E6-8434B3F00107" value="true"/>
+</engineerTo>
+<sourcePk>5DE0AEDF-1BCB-E02D-6BCA-77F63FCC052B</sourcePk>
+<targetPk>982E5F8B-5DE6-9EB2-A04E-CDF8D136A9FA</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>37D0202C-9B00-2A84-73E0-F07562B0CEC0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BB2C0999-2130-5B60-E625-E11238949C9A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
